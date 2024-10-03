@@ -1,0 +1,33 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+
+    <!-- Include custom CSS (site.css) -->
+    @*<link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />*@
+
+</head>
+<body>
+    <h1 class="tagging">Welcome to My MVC Application!</h1>
+    <p>This is your home page with HTML and CSS styling.</p>
+
+    <!-- Include jQuery -->
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+
+    <!-- Include Bootstrap JS -->
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Include custom JS (site.js) -->
+    @*<script src="~/js/site.js" asp-append-version="true"></script>*@
+
+</body>
+</html>

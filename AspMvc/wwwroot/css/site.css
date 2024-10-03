@@ -1,0 +1,69 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Light gray background */
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px; /* Max width for the container */
+    margin: auto; /* Center the container */
+}
+
+/* Header Styles */
+header {
+    background-color: #ffffff; /* White background for header */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.navbar-brand {
+    font-weight: bold; /* Make brand text bold */
+}
+
+/* Navigation Styles */
+.navbar-nav .nav-link {
+    color: #007bff; /* Bootstrap primary color */
+    transition: color 0.3s; /* Smooth transition for hover */
+}
+
+    .navbar-nav .nav-link:hover {
+        color: #0056b3; /* Darker shade on hover */
+    }
+
+/* Main Content Styles */
+main {
+    padding: 20px; /* Padding for the main content */
+    background-color: #ffffff; /* White background for the main section */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+h1 {
+    color: #333; /* Dark gray for headings */
+    margin-bottom: 20px; /* Space below heading */
+}
+
+p {
+    color: #666; /* Medium gray for paragraph text */
+    line-height: 1.5; /* Improve readability */
+}
+
+/* Footer Styles */
+footer {
+    padding: 10px; /* Padding for footer */
+    background-color: #f8f9fa; /* Light gray background */
+    text-align: center; /* Center align footer text */
+    position: relative; /* Ensure proper positioning */
+    bottom: 0;
+    width: 100%; /* Full width */
+}
+
+    /* Link Styles */
+    footer a {
+        color: #007bff; /* Bootstrap primary color */
+    }
+
+        footer a:hover {
+            color: #0056b3; /* Darker shade on hover */
+        }
