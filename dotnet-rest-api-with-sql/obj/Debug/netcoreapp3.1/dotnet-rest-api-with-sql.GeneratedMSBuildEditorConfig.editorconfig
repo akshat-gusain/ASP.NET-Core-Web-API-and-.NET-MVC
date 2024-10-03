@@ -1,0 +1,5 @@
+is_global = true
+build_property.RootNamespace = dotnet_rest_api_with_sql
+build_property.ProjectDir = C:\Users\Akshat\Downloads\dotnet-Core-Api-Accessing-SQL-Server\dotnet-rest-api-with-sql\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
