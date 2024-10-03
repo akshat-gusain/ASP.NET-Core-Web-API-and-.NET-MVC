@@ -1,0 +1,84 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e9f7ef; /* Light mint background */
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px; /* Max width for the container */
+    margin: auto; /* Center the container */
+}
+
+/* Header Styles */
+header {
+    background-color: #FFB6C1; /* Bright orange for header */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Slight shadow */
+}
+
+.navbar-brand {
+    font-weight: bold; /* Make brand text bold */
+    color: #ffffff; /* White color for brand text */
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff; /* White for navigation links */
+    transition: color 0.3s; /* Smooth transition for hover */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffd54f; /* Bright yellow on hover */
+}
+
+/* Main Content Styles */
+main {
+    padding: 20px; /* Padding for the main content */
+    background-color: #ffffff; /* White background for main section */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+h1 {
+    color: #00796b; /* Teal for headings */
+    margin-bottom: 20px; /* Space below heading */
+}
+
+p {
+    color: #333; /* Dark gray for paragraph text */
+    line-height: 1.5; /* Improve readability */
+}
+
+/* Button Styles */
+.btn {
+    background-color: #4caf50; /* Bright green button */
+    color: white; /* White text for button */
+    padding: 10px 20px; /* Padding for button */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    text-align: center; /* Centered text */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+.btn:hover {
+    background-color: #388e3c; /* Darker green on hover */
+}
+
+/* Footer Styles */
+
+footer {
+    padding: 10px; /* Padding for footer */
+    background-color: #FFB6C1; /* Light pink background */
+    color: #de0d2d; /* Red color for footer text */
+    text-align: center; /* Center align footer text */
+    position: relative; /* Ensure proper positioning */
+    bottom: 0;
+    width: 100%; /* Full width */
+}
+
+    /* Ensure all text inside the footer is red */
+footer * {
+        color: #de0d2d; /* Apply red color to all elements inside footer */
+        font-weight:bold;
+}
